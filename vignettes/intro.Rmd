@@ -22,9 +22,9 @@ this person a name, an age and praise them
 ```{r}
 library(iemand)
 
-age <- create_age()
-name <- give_name(sex = "female") # ideally not have both create and give
-praise_nicely(name = name)
+age <- create_age() # returns a value between 1 and 100
+name <- give_name(sex = "female") 
+praise_nicely(name = name) # 118,000 names used in South Africa
 
 
 ```
