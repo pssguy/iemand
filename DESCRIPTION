@@ -1,10 +1,16 @@
 Package: iemand
 Version: 0.0.0.9000
-Title: What the Package Does (One Line, Title Case)
+Title: Test Package for Cape Town
 Description: What the package does (one paragraph).
-Authors@R: person("First", "Last", , "first.last@example.com", c("aut", "cre"))
+Authors@R: person("Andrew", "Clark", , "agcur@rogers.com", c("aut", "cre"))
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
 RoxygenNote: 6.0.1
+Depends: R (>= 3.0.1)
+Suggests: 
+    testthat
+Imports:
+  praise,
+  magrittr
