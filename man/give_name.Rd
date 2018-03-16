@@ -7,7 +7,7 @@
 give_name(sex = "female")
 }
 \arguments{
-\item{sex}{}
+\item{sex}{assigned at birth}
 }
 \value{
 a female name by default

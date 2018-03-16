@@ -1,6 +1,6 @@
 #' Give Name
 #'
-#' @param sex
+#' @param sex assigned at birth
 #'
 #' @return a female name by default
 #' @export
