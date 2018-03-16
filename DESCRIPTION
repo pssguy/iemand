@@ -10,7 +10,8 @@ ByteCompile: true
 RoxygenNote: 6.0.1
 Depends: R (>= 3.0.1)
 Suggests: 
-    testthat
+    testthat,
+    covr
 Imports:
   praise,
   magrittr
