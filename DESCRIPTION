@@ -11,10 +11,12 @@ RoxygenNote: 6.0.1
 Depends: R (>= 3.0.1)
 Suggests: 
     testthat,
-    covr
+    covr,
+    knitr,
+    rmarkdown
 Imports:
   praise,
   magrittr
 URL: https://github.com/pssguy/iemand
 BugReports: https://github.com/pssguy/iemand/issues
-
+VignetteBuilder: knitr
